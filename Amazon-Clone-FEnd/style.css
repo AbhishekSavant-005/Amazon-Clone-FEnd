@@ -1,7 +1,7 @@
 * {
     margin:0;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    border: border-box;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -161,4 +161,57 @@ span {
 p a {
     color: #007185;
     text-decoration: none;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(254, 190, 141, 0.4);
+    height: 60rem;
+}
+
+.box {
+    /* border: 2px black solid; */
+
+    font:  15px Arial, sans-serif; 
+    height: 420px;
+    width: 23%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    /* margin: 10px 10px; */
+}
+
+.box-img {
+    height: 300px;
+    /* width: 300px; */
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.box-content {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.box-content p {
+    color: #007185;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1 a {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1rem;
 }
